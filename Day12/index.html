@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Site</title>
+</head>
+<body>
+    <div class="box1">
+        <img src="images/Play.png" alt="" onclick="music()" id="a">
+    </div>
+   
+    <audio id="b">
+        <source src="audio/kahani.mp3">
+
+    </audio>
+    <script>
+        function music(){
+            var x =document.getElementById("a");
+            var y =document.getElementById("b");
+            if(b.paused){
+                b.play();
+                a.src="images/Pause.png";
+            }
+            else{
+                b.pause();
+                a.src="images/Play.png";
+            }
+        }
+    </script>
+</body>
+</html>
