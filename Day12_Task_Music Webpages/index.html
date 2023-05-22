@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="mainBox">
+        <div class="nevBar">
+            <p class="logo">Music Webpages</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Connect</a></li>
+            </ul>
+        </div>
+        <!-- add the button logo play -->
+        <div class="but">
+            <p>Click Here To Listen</p>
+            <img src="play.png" alt="None play" onclick="myfun()" id="start">
+        </div>
+    </div>
+    <!-- ADD the song -->
+    <audio id="song">
+        <source src="audio/kahani.mp3">
+    </audio>
+
+    <!-- <script>
+        function myfun(){
+            var a=document.getElementById("start");
+            var b=document.getElementById("song");
+
+            if(song.paused){
+                song.play();
+                start.src="pause.png";
+                console.log("Music is start");
+            }
+            else{
+                song.pause();
+                start.src="play.png";
+                console.log("Music is stop");
+            }
+        }
+    </script> -->
+    
+    
+</body>
+</html>
