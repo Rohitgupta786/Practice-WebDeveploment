@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form & table </title>
+</head>
+<body>
+    <form action="">
+        <label for="email">Enter ther Email Id:</label>
+        <input type="text" id="email">
+        <br>
+        <br>
+        <label for="pass">Enter ther Passsword:</label>
+        <input type="text" id="pass">
+        <br>
+        <br>
+        <label for="date">Date of birth</label>
+        <input type="date" name="" id="date">
+        <button>Click Here</button>
+        <input type="submit" value="Click me">
+        <input type="text"  value="New ">
+        <input type="text"  value="New ">
+    </form>
+    <br>
+    <h1>Table</h1>
+    <table border="1">
+    <thead>  
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th>Day1</th>
+            <th>Day2</th>
+            <th>Day3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="4">Thank you</th>
+        </tr>
+    </tfoot>
+    </table>
+    <br>
+    <h1>From element</h1>
+    <form action="">
+        <fieldset>
+            <legend>Htmt legend element use</legend>
+            <label for="123">Name </label>
+            <input type="text" placeholder="Enter you name" id="123">
+            <br/>
+            <label for="date">DOB</label>
+            <input type="date" placeholder="Date of birthday" id="date">
+            <br>
+            <button>Sumbit</button>
+
+        </fieldset>
+       
+        <br>
+        <label for="s1">Chosse teh</label>
+        <select name="dishes" id="s1">
+            <option value="maggi">Maggi</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chipss</option>
+        </select>
+        <button>Main  hu butoon </button>
+        <br>
+        <label for="text">text multipline</label>
+        <textarea name="ta1" id="text" cols="30" rows="10"></textarea>
+    </form>
+    <hr >
+    <h1 ><center>form HW1s</center></h1>
+    <form action="" class="hw1">
+        <label for="name" >Enter you name:</label>
+        <input type="text" id="name" name="n1" required>
+        <br>
+        <br>
+        <label for="email">Enter you email:</label>
+        <input type="email" id="email" name="e1">
+        <br>
+        <br>
+        <label for="phone">Enter the Phone:</label>
+        <input type="tel" id="phone" name="p1">
+        <br>
+        <br>
+        <label for=" occupation">select the Occcuoation:</label>
+        <select name="OccupationType" id="occupation">
+            <option value="std1">Student</option>
+            <option value="tec1">Teacher</option>
+            <option value="Fres1">Fresher</option> 
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Topics of Interest</legend>
+            <label for="c1">HTML</label>
+            <input type="checkbox" id="c1" name="Checkbox">
+            <br>
+            <label for="c2">PYTHON</label>
+            <input type="checkbox" id="c2" name="Checkbox">
+            <br>
+            <label for="c3">JAVA</label>
+            <input type="checkbox" id="c3" name="Checkbox">
+        </fieldset>
+        <br>
+        <label for="area">Comment:</label>
+        <br>
+        <textarea name="comment" id="area" cols="30" rows="4"></textarea>
+        <br>
+        <input type="submit" value="Regsiter">
+    </form>
+    <hr>
+    <h1>HW2</h1>
+    <h3>Job application Form</h3>
+    <form action="">
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <label for="email">Enter you Email-ID:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="phone">Enter your Phone no:</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <br>
+        <label for="fileuploade">Resume Uploade:</label>
+        <input type=" file" id="fileuploade" name="fileuploade">
+        <br>
+        <br>
+        <label for="exp">Experience:</label>
+        <input type="number" id="exp" min="0" max="10">
+        <br>
+        <label for="skill">skillls</label>
+        <select name="skill" id="skill">
+            <option value="Html">HTML</option>
+            <option value="Html">JAVA</option>
+            <option value="Html">PYTHOn</option>
+            <option value="Html">CSS</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Work Type</legend>
+            <label for="rd1">Part-Time:</label>
+            <input type="radio" id="rd1" name="radio">
+            <br>
+            <label for="rd2">Full-Time:</label>
+            <input type="radio" id="rd2" name="radio">
+            <br>
+        </fieldset>
+        <br>
+        <label for="textarea">Comment</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="40" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Sumbit application" >
+
+    </form>
+    
+    <hr>
+    <form action="index1.html">
+    <h1><center>Complex Form</center></h1>
+     <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name1">Name:</label>
+        <input type="text" id="name1" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="tel1">Phone no:</label>
+        <input type="tel" id="tel1" name="phone no">
+        <label for="date1">DoB:</label>
+        <input type="date" id="date1" name="date of birth">
+
+        <span>Gender:</span>
+        <label for="radio1">Male</label>
+        <input type="radio" id="radio1" name="radio">
+        <label for="radio2">Female</label>
+        <input type="radio" id="radio2" name="radio">
+        <br>
+        <label for="country">country:</label>
+        <select name="Contry" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="sri lanka">SRI LANKA</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Adress </legend>
+        <label for="s1">Street:</label>
+        <input type="text" id="s1" name="street">
+        <label for="s5">State:</label>
+        <input type="text" id="s5" name="state">
+        <label for="s2">City:</label>
+        <input type="text" id="s2" name="city">
+        <label for="code">Zipe code:</label>
+        <input type="number" id="code" name="code">
+
+    </fieldset>  
+    <fieldset>
+        <legend>Other Infomation</legend>
+        <label for="c1">Comments:</label>
+        <textarea name="textare" id="c1" cols="30" rows="10"></textarea>
+        <label for="check">I agree the Terms</label>
+        <input type="checkbox" id="check" name="checkbox">
+    </fieldset> 
+    <br>
+    <input type="submit" value="Sumbit application">
+    </form>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <h2 id="first">Welcome to Masao</h2>
+    <form> 
+         action="" 
+        <input type="text"  placeholder="your name" required>
+        <input type="submit" value="Sumbit">
+        <input type="reset" value="Reset">
+       <input type="email" placeholder="your email" name="myemail" id=""> 
+    </form> -->
+    
+</body>
+</html>

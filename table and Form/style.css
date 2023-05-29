@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+body{
+    width: 100%;
+    height: 220vh;
+    background: linear-gradient(rgb(228, 46, 14),yellowgreen);
+}
+
+/* form{
+    width: 88%;
+    height: 85vh;
+    background: red;
+    box-shadow: 0px 0px 5px gold;
+    border: 25px dotted yellowgreen;
+} */
+
+/* #first{
+    display: flex;
+    justify-content: center;
+    
+} */
+.hw1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: pink;
+}   
