@@ -1,0 +1,21 @@
+p{
+    background-color: aquamarine;
+    color: rgb(11, 69, 241);
+}
+ul li:hover{
+    color: deeppink;
+}
+
+.a{
+    color: greenyellow !important;
+    background: gray !important;
+    text-align: center;
+}
+
+#ab{
+    color: whitesmoke !important;
+    background: black !important;
+}
+.a,#ab{
+    width: 800px;
+}
