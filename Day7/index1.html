@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Css</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* .Pribtn:link {
+            color: black;
+            background-color: aqua;
+        }
+        .Pribtn{
+            color: yellow;
+            background-color: black; 
+        }*/
+        .btn:visited{
+            color: orange;
+            background-color: olive;
+            padding: 10px;
+        }
+        .btn:active{
+            padding: 50px;
+            color: aqua;
+            background: #000;
+        }
+        .btn1:hover{
+            color: pink;
+
+        }
+        /* ul li:first-child{
+            background: palegreen;
+        }
+        ul li:last-child{
+            background: peachpuff;
+        } */
+        ul li:nth-child(2n+1){
+            background:chartreuse ;
+        }
+
+        h1::first-letter{
+            color: blueviolet;
+            font-size: 65px;
+        }
+        p::first-line{
+            color: hotpink;
+            background: brown;
+        }
+        ::selection{
+            background-color: aquamarine;
+            color: rgb(220, 47, 255);
+        }
+        h2::after{
+            border: 2px solid gold;
+            content: "after";
+        }
+        h2::before{
+            border: 2px solid gold;
+            content: "before";
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>This is a God Day</h1>
+    <h2>Using psudeo element</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi labore officiis dolores! Voluptatum non, tenetur delectus numquam illo velit ab veniam autem, harum modi eveniet totam eum quisquam neque quasi, iste eaque architecto vel dolorum! Ipsam, laborum? Repellat iure facilis perspiciatis accusantium eaque placeat molestias. Dolorem amet quos deserunt recusandae id sunt quia velit optio repellendus ex excepturi laudantium sequi voluptates harum quas nulla veritatis, consequatur culpa? Accusantium cupiditate sunt sint dolorum! Reiciendis sint voluptatum, perspiciatis commodi esse dolore eum velit quod natus earum accusantium exercitationem magnam expedita? Quis, ipsa.</p>
+    <a class="btn" href="#">Lern More</a>
+    <br>
+    <br>
+    <a class=btn1 href="#">Nw one</a>
+    <br>
+    <hr>
+    <ul>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+        <li>item1-</li>
+    </ul>
+    <hr>
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+        <li>item-5</li>
+        <li>item-6</li>
+    </ul>
+    <br><span>psudeo class : 
+        <ul>
+            <li>:visited</li>
+            <li>:link</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+            <li>:nth-child</li>
+        </ul>
+    </span>
+    
+    
+</body>
+</html>
