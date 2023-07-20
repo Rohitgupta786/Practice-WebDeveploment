@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Size Units</title>
+    <style>
+        /* *{
+            background-color: gainsboro;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box{
+            width: 50%;
+            height: 20%;
+            border: 2px solid saddlebrown;
+        } */
+        .parent{
+            border: 1px solid black;
+            background: palegreen;
+        }
+        .child{
+            border: 1px solid green;
+            background: aqua;
+            width: 20%;
+            cursor: pointer;
+        }
+        .container{
+            border: 1px solid black;
+            background-color: beige;
+            width: 50vw;
+            height: 50vh;
+        }
+        .box1{
+            font-size: 45px;
+            font-weight: 600;
+            border: 1px solid green;
+            box-sizing: border-box;
+            padding: 1px;
+            width: 300px;
+            height: 200px;
+        }
+        .box2{
+            font-size: 10px;
+            padding: 10px;
+        }
+        .box3{
+            font-size: 3em;
+            padding: 2em;
+            /* border: 1px solid skyblue; */
+        }
+        .fist{
+            border: 1px solid blueviolet;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Wlecome the css size units</h1>
+    </div>
+    <br>
+    <br>
+    <span>% units</span>
+    <div class="parent">
+        <div class="child">
+            <p>Hello</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1>View port vh/vw</h1>
+    <div class="container">
+        wlcome to ....
+    </div>
+    <br>
+    <br>
+    <h1>pixals</h1>
+    <div class="box1">
+        <p>pixal using size</p>
+    </div>
+    <br>
+    <h1>em units</h1>
+    <p>Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Id, sint.</p>
+    <div class="box2">
+        <div class="box3">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <br>
+    <br><h1>rem units</h1>
+    <p class="fist">Lorem ipsum dolor sit.</p>
+
+</body>
+</html>
